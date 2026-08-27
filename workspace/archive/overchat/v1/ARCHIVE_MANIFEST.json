@@ -1,0 +1,115 @@
+{
+  "classification": "VERIFIED_WITH_LIMITATIONS",
+  "files": [
+    {
+      "path": "CAPABILITY_INVENTORY.md",
+      "sha256": "30899f5b5900f5019ebade057c42f5496f290dba12c1381b5f827b3f1a8fd967",
+      "size": 4298
+    },
+    {
+      "path": "MIGRATION_MAP.md",
+      "sha256": "fecf20bd70ecd5049733d02fe6f126ebf323635ec6e72c10a3b02a87682ca731",
+      "size": 2975
+    },
+    {
+      "path": "MIGRATION_PLAN.md",
+      "sha256": "7df6c59fbdf7d25ec7b3a1e614325d00cddf96a9b0f09fd1458e4beae7050461",
+      "size": 3285
+    },
+    {
+      "path": "MIGRATION_REPORT.md",
+      "sha256": "e5e99dd09b42e085f16d55497ad74cd07758175439c6de761615b775810ed0fe",
+      "size": 3984
+    },
+    {
+      "path": "VERIFICATION_RESULTS.md",
+      "sha256": "e600ede21eecf6b403089cf24453ea9390076b39f6b9799d6c642cfa41bed578",
+      "size": 6058
+    },
+    {
+      "path": "manifest.yaml",
+      "sha256": "94bfb3574c3e60b9c402dcba97c7502fc1bf1b426a9982d09b6ce54cc3eaac89",
+      "size": 1460
+    },
+    {
+      "path": "migrated_provider/__init__.py",
+      "sha256": "64f485732242ad56390897c1e68351b15dc10d77cd7a2d49a6607527c0ff0539",
+      "size": 668
+    },
+    {
+      "path": "migrated_provider/adapter.py",
+      "sha256": "eba0544019974e76257d05b5543af4bea8342bdf61b6d84936dca7319856f741",
+      "size": 3855
+    },
+    {
+      "path": "migrated_provider/client.py",
+      "sha256": "5ab75546b50043c4f5445845cb0870bcf5196a20eed26e4c86d0de9bdfe85f9d",
+      "size": 5676
+    },
+    {
+      "path": "migrated_provider/config.py",
+      "sha256": "e24f2736d88abc62d37d5a2f2ddca60291048f9930f553d56886f3021b679d9e",
+      "size": 592
+    },
+    {
+      "path": "migrated_provider/errors.py",
+      "sha256": "bca6e77a3999eb70d6a9f6497e5a04ea321efaa0d82f5ff4572364f298f87323",
+      "size": 3328
+    },
+    {
+      "path": "migrated_provider/io.py",
+      "sha256": "240cd84b8bea25b8b1ea7ad314b71c9a86a3159cea728c08aa644280827017e8",
+      "size": 758
+    },
+    {
+      "path": "migrated_provider/manifest.yaml",
+      "sha256": "94bfb3574c3e60b9c402dcba97c7502fc1bf1b426a9982d09b6ce54cc3eaac89",
+      "size": 1460
+    },
+    {
+      "path": "migrated_provider/models.py",
+      "sha256": "c5ba0ae07f0aeddd155e734f93139356ffbf66b2c4f616ac0ffd2b3afd4263fb",
+      "size": 2195
+    },
+    {
+      "path": "migrated_provider/requirements.txt",
+      "sha256": "e4fe2d81bc858d8dc3fc6862fabe00895ddfe6671d33f9560b16e14151b40605",
+      "size": 67
+    },
+    {
+      "path": "migrated_provider/streaming.py",
+      "sha256": "a806fd694347b76d30a891c7eb48a2cdb3b9f2a4da983c38acdc13745adce290",
+      "size": 1751
+    },
+    {
+      "path": "migrated_provider/tests/test_standalone.py",
+      "sha256": "7e95219e179e63a9e5e648ace7797ff9de398ab9fbb3f79e4aa0f3527887f885",
+      "size": 633
+    },
+    {
+      "path": "source_evidence_snapshot/01.02_overchat_gpt5_2_gemini3_5_bypass.py",
+      "sha256": "d513c0359c8aada2801a3d847466cf2d0e865e33fd05f0d180c902187cbbc470",
+      "size": 20308
+    },
+    {
+      "path": "source_original_hash.txt",
+      "sha256": "9c0d12934a65c9a47c6c9813ec9a3f45279f750d955bc988a2d11859f5a5eae7",
+      "size": 154
+    },
+    {
+      "path": "source_sanitized_hash.txt",
+      "sha256": "ceb018af9436ceb6a0cb8b53fb9acd7994d80f22994a42686e1f1cdf3085bb8b",
+      "size": 118
+    },
+    {
+      "path": "target_hash.txt",
+      "sha256": "cf170c2075cc867182d49c8fb45f7921f714252ea529f514e705b776f403011e",
+      "size": 65
+    }
+  ],
+  "provider_key": "overchat",
+  "revision": "v1",
+  "schema_version": 1,
+  "source_tree_sha256": "4ae568c8e25a57abc05aaf8e59f31fdfd0cf4f35cd0d4bbd14c6776e3154f130",
+  "target_tree_sha256": "cccf93cec60112b304637a844902382bc79c1d15a7c573bf6f829a0bb5805661"
+}
