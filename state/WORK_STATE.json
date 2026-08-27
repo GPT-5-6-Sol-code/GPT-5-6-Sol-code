@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
   "provider_key": "overchat",
+  "revision": "v1",
   "source_set": "workspace/inbox/gemini--flash",
   "source_files": [
     {
@@ -10,12 +11,26 @@
     }
   ],
   "source_tree_sha256": "4ae568c8e25a57abc05aaf8e59f31fdfd0cf4f35cd0d4bbd14c6776e3154f130",
-  "source_snapshot": "workspace/working/overchat/source_snapshot",
-  "cycle_status": "MIGRATION_IN_PROGRESS",
-  "stage": "MIGRATION_PLANNED",
-  "next_action": "IMPLEMENT_V3_PROVIDER",
-  "notes": [
-    "No prior WORK_STATE.json existed.",
-    "The forwarding-IP and fabricated-device identity behavior is quarantined by the V3 anti-abuse security rule."
+  "source_snapshot": "workspace/archive/overchat/v1/source_evidence_snapshot",
+  "target_path": "providers/finished/overchat",
+  "target_tree_sha256": "cccf93cec60112b304637a844902382bc79c1d15a7c573bf6f829a0bb5805661",
+  "archive_path": "workspace/archive/overchat/v1",
+  "classification": "VERIFIED_WITH_LIMITATIONS",
+  "provider_activation": "disabled",
+  "cycle_status": "READY_FOR_NEXT_PROVIDER",
+  "stage": "ARCHIVED",
+  "next_action": "WAIT_FOR_PROVIDER_INPUT",
+  "working_artifacts_cleaned": true,
+  "verification": {
+    "full_tests": "PASS (32 tests)",
+    "standalone": "PASS",
+    "repository_check": "PASS",
+    "security_scan": "PASS",
+    "live_provider": "NOT_EXECUTED"
+  },
+  "limitations": [
+    "Legitimate live authorization and current upstream model availability were not established.",
+    "Fabricated forwarding-IP/device identity behavior was quarantined under V3 anti-abuse policy.",
+    "Ruff was configured but unavailable; mypy and import-linter were not configured."
   ]
 }
