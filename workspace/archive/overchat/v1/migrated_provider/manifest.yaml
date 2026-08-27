@@ -1,0 +1,73 @@
+id: overchat
+name: Overchat
+version: 1.0.0
+status: disabled
+is_template: false
+is_functional: true
+real_provider_required: false
+
+activation:
+  state: integration_pending
+  reason: legitimate live authorization and upstream permission are unverified
+
+auth:
+  types:
+    - anonymous
+  credential_required: false
+  supports_refresh: false
+  secret_storage: not_applicable
+
+capabilities:
+  text_generation: true
+  streaming: true
+  reasoning: unknown
+  coding: unknown
+  vision_input: false
+  image_generation: false
+  audio_stt: false
+  audio_tts: false
+  embeddings: false
+  rerank: false
+  moderation: false
+  file_upload: false
+  provider_agent: false
+
+operations:
+  generate_text: true
+
+models:
+  discovery: static
+  static_models:
+    - persona_id: gpt-5-2
+      provider_model_name: gpt-5.2-2025-12-11
+    - persona_id: gemini-3-5-flash
+      provider_model_name: google/gemini-3.5-flash
+    - persona_id: free-chat-gpt-landing
+      provider_model_name: openai/gpt-4.1-nano
+
+runtime:
+  transport: http_sse
+  session_required: false
+  cookies_required: false
+  polling_required: false
+  retries: none
+  source_timeouts_seconds:
+    setup: 15
+    response: 120
+
+account_pool:
+  supported: false
+  required: false
+
+security:
+  fabricated_forwarding_ip: quarantined
+  fabricated_device_identity: quarantined
+  literal_undefined_authorization: sanitized
+
+health:
+  checks:
+    - endpoint_available
+  live_status: unknown
+
+errors:
+  mapping: overchat_error_map
